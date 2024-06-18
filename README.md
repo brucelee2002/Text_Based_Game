@@ -42,13 +42,13 @@ Shop: Allows the player to buy health kits or skill points.
 4. Game State Management
 Methods like resetGame and resetEnemy are used to initialize or reset game states.
 handleEnemyDefeat and handlePlayerDefeat manage what happens when an enemy or player is defeated.
+
 Example Code Snippets
-Initialization and UI Setup:
+# Initialization and UI Setup:
 public JavaGame1() {
     super("Text-Based Game");
     setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     setPreferredSize(new Dimension(900, 500));
-    
     textArea = new JTextArea(30, 30);
     textArea.setFont(new Font("Segoe UI", Font.PLAIN, 16));
     textArea.setEditable(false);
