@@ -1,5 +1,8 @@
 # Text_Based_Game
 JavaTGame is a text-based Java game featuring a Swing-based GUI. Players engage in battles against enemies, manage their health, utilize health kits, and shop for items. The game incorporates experience points and leveling up to enhance player progression. Designed for interactivity, it dynamically updates the game state based on player actions. 
+
+![image](https://github.com/brucelee2002/Text_Based_Game/assets/95197108/342b9274-ec3b-4894-a8cc-faede13941a9)
+
 # Features
 Player and Enemy Mechanics:
 
