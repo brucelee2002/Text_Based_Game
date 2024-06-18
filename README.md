@@ -188,11 +188,12 @@ private void handleAttack() {
         handlePlayerDefeat();
     }
 }
-        <code>
-        <pre>
+        </code>
+        </pre>
     
 
-# Summary
+
+            # Summary
 JavaGame1 is a functional text-based game with a GUI, featuring a combat system, leveling, and a shop mechanism. The game is designed to be interactive, engaging the player with various actions and updating the game state dynamically based on user input. The project demonstrates core Java programming concepts, including GUI development with Swing, event handling, and game logic implementation.
 
 
