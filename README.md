@@ -45,6 +45,8 @@ handleEnemyDefeat and handlePlayerDefeat manage what happens when an enemy or pl
 
 Example Code Snippets
 # Initialization and UI Setup:
+<pre>
+    <code class = "language-java">
 public JavaGame1() {
     super("Text-Based Game");
     setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -120,6 +122,8 @@ public JavaGame1() {
     pack();
     setVisible(true);
 }
+</code>
+</pre>    
 
 # Action Handling:
 
