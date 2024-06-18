@@ -126,9 +126,8 @@ public JavaGame1() {
 </pre>    
 
 # Action Handling:
-``` java
-
-
+<pre>
+    <code class = "language-java">
 public void actionPerformed(ActionEvent e) {
     if (e.getSource() == Run) {
         Thread runThread = new Thread(() -> {
@@ -158,8 +157,11 @@ public void actionPerformed(ActionEvent e) {
     levelLabel.setText("Level: " + level);
     experienceLabel.setText("Experience: " + experience);
 }
-```
+ </code>
+ </pre>
 # Attack Logic:
+<pre>
+    <code class = "language-java">
 private void handleAttack() {
     int damageInflicted = rand.nextInt(attackDamage);
     int damageTaken = rand.nextInt(enemyAttackDamage); 
@@ -186,6 +188,9 @@ private void handleAttack() {
         handlePlayerDefeat();
     }
 }
+        <code>
+        <pre>
+    
 
 # Summary
 JavaGame1 is a functional text-based game with a GUI, featuring a combat system, leveling, and a shop mechanism. The game is designed to be interactive, engaging the player with various actions and updating the game state dynamically based on user input. The project demonstrates core Java programming concepts, including GUI development with Swing, event handling, and game logic implementation.
