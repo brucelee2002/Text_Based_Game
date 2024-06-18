@@ -126,6 +126,8 @@ public JavaGame1() {
 </pre>    
 
 # Action Handling:
+``` java
+
 
 public void actionPerformed(ActionEvent e) {
     if (e.getSource() == Run) {
@@ -156,7 +158,7 @@ public void actionPerformed(ActionEvent e) {
     levelLabel.setText("Level: " + level);
     experienceLabel.setText("Experience: " + experience);
 }
-
+```
 # Attack Logic:
 private void handleAttack() {
     int damageInflicted = rand.nextInt(attackDamage);
