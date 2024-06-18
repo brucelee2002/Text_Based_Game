@@ -1,6 +1,6 @@
 # Text_Based_Game
 JavaTGame is a text-based Java game featuring a Swing-based GUI. Players engage in battles against enemies, manage their health, utilize health kits, and shop for items. The game incorporates experience points and leveling up to enhance player progression. Designed for interactivity, it dynamically updates the game state based on player actions. 
-Features
+# Features
 Player and Enemy Mechanics:
 
 Player starts with 100 health and can attack enemies, use health kits, run away, and reset the game.
@@ -8,19 +8,22 @@ Enemies have randomly generated health and attack damage.
 User Interface:
 
 The main interface consists of a text area displaying game messages, progress bars for player and enemy health, buttons for actions, and labels for various stats (currency, level, experience, and current date/time).
-Combat System:
+
+# Combat System:
 
 Player can attack enemies, dealing random damage.
 Enemies also attack the player, causing random damage.
 Health kits can be used to restore health.
-Shop System:
 
+# Shop System:
 Players can buy health kits and skill points using currency earned by defeating enemies.
-Leveling Up:
+
+# Leveling Up:
 
 Players gain experience from defeating enemies.
 Upon reaching 100 experience points, the player levels up, gaining additional benefits.
-Date and Time Display:
+
+# Date and Time Display:
 
 The current date and time are displayed and updated in the game interface.
 Code Structure
@@ -117,7 +120,8 @@ public JavaGame1() {
     pack();
     setVisible(true);
 }
-Action Handling:
+
+# Action Handling:
 
 public void actionPerformed(ActionEvent e) {
     if (e.getSource() == Run) {
@@ -149,7 +153,7 @@ public void actionPerformed(ActionEvent e) {
     experienceLabel.setText("Experience: " + experience);
 }
 
-Attack Logic:
+# Attack Logic:
 private void handleAttack() {
     int damageInflicted = rand.nextInt(attackDamage);
     int damageTaken = rand.nextInt(enemyAttackDamage); 
@@ -176,7 +180,8 @@ private void handleAttack() {
         handlePlayerDefeat();
     }
 }
-Summary
+
+# Summary
 JavaGame1 is a functional text-based game with a GUI, featuring a combat system, leveling, and a shop mechanism. The game is designed to be interactive, engaging the player with various actions and updating the game state dynamically based on user input. The project demonstrates core Java programming concepts, including GUI development with Swing, event handling, and game logic implementation.
 
 
