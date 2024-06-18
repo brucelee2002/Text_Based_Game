@@ -3,23 +3,23 @@ JavaTGame is a text-based Java game featuring a Swing-based GUI. Players engage 
 
 ![image](https://github.com/brucelee2002/Text_Based_Game/assets/95197108/342b9274-ec3b-4894-a8cc-faede13941a9)
 
-Attack and win after enemy health is zero
+Attack and win after enemy health is zero<br/>
 ![image](https://github.com/brucelee2002/Text_Based_Game/assets/95197108/2c718871-b4c7-4b35-a52b-2f61553e162e)
 
-Using health Kit and Dialog box to show remaining Health Kit
+Using health Kit and Dialog box to show remaining Health Kit<br/>
 ![image](https://github.com/brucelee2002/Text_Based_Game/assets/95197108/6fbb14a2-630e-4b7a-af9b-78d4eebe939d)
 
-Run using thread and the Player image go out of the frame
+Run using thread and the Player image go out of the frame<br/>
 ![image](https://github.com/brucelee2002/Text_Based_Game/assets/95197108/4bed9a50-3551-41ea-b8b9-671c6b476257)
 
-Reset Button
+Reset Button<br/>
 ![image](https://github.com/brucelee2002/Text_Based_Game/assets/95197108/6ad92d28-0afb-4bdd-bb58-2388479be2ca)
 
-Shop to Buy health kit and skill points
+Shop to Buy health kit and skill points<br/>
 ![image](https://github.com/brucelee2002/Text_Based_Game/assets/95197108/955e6c1e-310a-413f-8580-dce31edbf4d1)
 ![image](https://github.com/brucelee2002/Text_Based_Game/assets/95197108/7f57bd42-7149-4091-a214-ab6732891846)
 
-Bars to show the health of enemy and player and the date and time when the player has started the game
+Bars to show the health of enemy and player and the date and time when the player has started the game<br/>
 ![image](https://github.com/brucelee2002/Text_Based_Game/assets/95197108/3ab414d8-160e-4e26-b931-de0a8e5c9c71)
 
 
